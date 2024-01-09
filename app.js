@@ -35,7 +35,6 @@ const apiAuthRouter = require("./router/api_auth");
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
   })
 );
 
